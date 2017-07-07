@@ -1,0 +1,24 @@
+{
+  "name": "react-fullstack-practice",
+  "version": "1.0.0",
+  "description": "Full Stack App using Node.js, React and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jperryman23/React-FullStack-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jperryman23/React-FullStack-Practice/issues"
+  },
+  "homepage": "https://github.com/jperryman23/React-FullStack-Practice#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "monk": "^6.0.1"
+  }
+}
