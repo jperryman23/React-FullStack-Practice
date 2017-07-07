@@ -4,9 +4,12 @@ const bodyParser = require('body-parser')
 const monk = require('monk')
 
 const app = express()
-const port = 3000
+const port = process.env.PORT ||3000;
 
-const db = monk('localhost/gameslocker')
+const mongoURI = 'mongodb://';
+
+
+const db = monk(mongoURI || 'localhost/gameslocker')
 const games = db.get('games')
 
 
